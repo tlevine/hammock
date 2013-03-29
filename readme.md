@@ -6,7 +6,7 @@ and the resulting endpoints are created.
 
 Data are sent as JSON lists of dicts, at least for now.
 
-Data are stored in the server in an SQLite database.
+Data are stored in the server in an SQLite database. Or maybe acid-state.
 
 GET, POST, PUT and PATCH requests are supported for ordinary tables.
 
