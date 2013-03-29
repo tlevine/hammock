@@ -1,0 +1,4 @@
+dist
+src/*.hi
+src/*.o
+src/Main
