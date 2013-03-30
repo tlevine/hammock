@@ -14,7 +14,6 @@ category:            Web
 build-type:          Simple
 cabal-version:       >=1.8
 description:
-  Trailer tracker is a website where people living in inhabitable FEMA trailers collect their stories.
 
 executable trailer-tracker
   hs-source-dirs:      src
@@ -27,7 +26,6 @@ executable trailer-tracker
                      , snap-extras  >= 0.4
                      , lens         >= 3.7.0.1
 --                   , text         >= 0.11
-                     , uuid         >= 1.2.9
   extensions: OverloadedStrings
             , TemplateHaskell
 --          , FlexibleInstances

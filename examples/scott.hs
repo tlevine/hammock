@@ -25,6 +25,7 @@ type Status = a | b | c | d | e
 
 type Schema = M.Map String (String -> SqlValue)
 
+-- A table
 application :: Schema
 application = fromList $ [ ("projectDescription",  anything)
                          , ("applicant",           anything)
